@@ -48,7 +48,7 @@ class AuthController extends Controller
 
     // Login
     public function login(Request $request) {
-
+dd('tesfdfft');
         // Validate field
         $fields = $request->validate([
             'username'=> 'required|string',
